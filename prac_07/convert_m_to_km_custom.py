@@ -19,15 +19,12 @@ class MetersConverterApp(App):
         return self.root
 
     def handle_calculate(self):
-        """ handle calculation (could be button press or other call), output result to label widget """
         value = self.get_validated_meters()
         result = value * METERS_TO_KM
         self.root.ids.output_label.text = str(result)
 
     def handle_increment(self, change):
         """
-        handle up/down button press, update the text input with new value, call calculation function
-        :param change: the amount to change
         """
         value = self.get_validated_meters() + change
         self.root.ids.input_meters.text = str(value)
@@ -35,8 +32,6 @@ class MetersConverterApp(App):
 
     def get_validated_meters(self):
         """
-        get text input from text entry widget, convert to float
-        :return: 0 if error, float version of text if valid
         """
         try:
             value = float(self.root.ids.input_meters.text)
