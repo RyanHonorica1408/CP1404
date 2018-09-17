@@ -16,15 +16,14 @@ class DynamicWidgetsApp_custom(App):
         self.title = "Dynamic Widgets"
         self.root = Builder.load_file('dynamic_widgets_custom')
         self.create_widgets()
-        self.name = name
         return self.root
 
     def create_widgets(self):
 
-        for name in self.name:
-            label = Label(text=name, id=name)
-            label.bind(on_release=self.press_entry)
+        for name in self.names:
+            label = Label(text=name)
             self.root.ids.entries_box.add_widget(label)
 
 
 DynamicWidgetsApp_custom().run()
+
