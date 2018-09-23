@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c89484-c06b-4324-9fd5-622f2d60ff90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sandbox/.idea/Sandbox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sandbox/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sandbox/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sandbox/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sandbox/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sandbox/list_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_03/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_04/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_05/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_08/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_08/car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_08/silverservicetaxi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_08/silverservicetaxi_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_08/taxi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_08/taxi_sim.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_08/taxi_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_08/unreliable_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prac_08/unreliablecar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prac_03" beforeDir="false" afterPath="$PROJECT_DIR$/prac_03" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prac_04" beforeDir="false" afterPath="$PROJECT_DIR$/prac_04" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prac_05" beforeDir="false" afterPath="$PROJECT_DIR$/prac_05" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prac_06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prac_06/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prac_07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/prac_07/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -374,10 +349,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -390,7 +364,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50208336" side_tool="true" visible="true" weight="0.32944915" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50208336" side_tool="true" visible="true" weight="0.32944915" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
