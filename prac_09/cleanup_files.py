@@ -38,37 +38,18 @@ def main():
 
 
 def get_fixed_filename(filename):
-    new_name = filename.replace(" ", "_").replace(".TXT", ".txt")
-    n = 0
-    new_index = 0
-    while n == 0:
-        for index, character in enumerate(new_name):
-            index = index + new_index
-            if (index == len(new_name) - 1):
-                n = 1
-            elif (index >= 1) and (new_index < len(new_name)-1):
-                previous_character = new_name[index - 1]
-                current_character = character
-                next_character = new_name[index + 1]
-                conditionbase1 = current_character.isupper() is True and previous_character.islower() is True and next_character.islower() is True
-                conditionbase2 = current_character.islower() is True and previous_character.islower() is True and next_character.isupper() is True
-                conditionbase3 = current_character.isupper() is True and previous_character.isupper() is True and next_character.islower() is True
-                conditionbase4 = current_character.islower() is True and previous_character.islower() is True and next_character.isupper() is True
-                conditiondashcur = current_character == '_'
-                conditiondashprev = previous_character == '_'
-                conditiondashnext = next_character == '_'
-                conditiondot = current_character == '.'
-                if conditionbase1 is True and conditiondashprev is False:
-                    new_name = new_name.replace(new_name[index], '_{}'.format(current_character), 1)
-                    new_name = new_name
-                    new_index = 1
-                elif conditionbase2 is True and conditiondashprev is False:
-                    new_name = new_name.replace(new_name[index], '{}_'.format(current_character), 1)
-                    new_name = new_name
-                    new_index = 1
-
+    filename = filename.replace('.TXT', '.txt')
+    new_name = ""
+    for index, current_character in enumerate(filename):
+        if current_character.isupper() and index != 0:
+            new_name += '_'
+        elif current_character == ' ':
+            new_name += '_'
+        else:
+            new_name += current_character
+    new_name = '_'.join([name.title() for name in new_name.split('_')])
+    new_name = new_name.replace('.Txt', '.txt')
     return new_name
-
 
 
 def demo_walk():
