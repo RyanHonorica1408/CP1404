@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5329ad4e-e9f4-47ae-9e90-b19e9f14fb26" name="Default Changelist" comment="" />
+    <list default="true" id="5329ad4e-e9f4-47ae-9e90-b19e9f14fb26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../prac_08/taxi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prac_08/taxi_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sandbox" beforeDir="false" afterPath="$PROJECT_DIR$/../Sandbox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac_03" beforeDir="false" afterPath="$PROJECT_DIR$/../prac_03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac_04" beforeDir="false" afterPath="$PROJECT_DIR$/../prac_04" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac_05" beforeDir="false" afterPath="$PROJECT_DIR$/../prac_05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac_07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prac_07/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +28,13 @@
     <session id="1002556252">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.137" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.175" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/car.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -85,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guitars.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -161,7 +169,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Assignment/Assignment 2/a2-RyanHonorica1408/a2-RyanHonorica1408" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -319,9 +327,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25677082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,13 +359,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/car.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/used_cars.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -386,6 +387,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
         </state>
       </provider>
     </entry>
